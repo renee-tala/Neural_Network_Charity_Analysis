@@ -41,6 +41,7 @@ The following changes to model were:
     ![plot](img/ask_amt_plot.png) ![valuecounts](img/ask_amt_valuecounts.png)
     
     - After binning is complete: 
+    
     ![finalaskamt](img/ask_amt_final.png)
     
   - After completing preprocessing, I was able to make changes to compiling the model. These are the changes and results of each attempt:
