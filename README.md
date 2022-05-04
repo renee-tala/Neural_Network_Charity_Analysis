@@ -53,4 +53,8 @@ The following changes to model were:
     - The result was 68% accuracy.
 
 ## Summary: 
-The model could not meet our goal of 75% accuracy. After completing the optimization, the model still didn't meet the goal. Since this didn't work, I suggest using a supervised machine learning model, such as decision trees and random forest classifiers. This is because we know the outcome of the data; I dropped the 'IS_SUCCESSFUL' column in the beginning of preprocessing. Decision trees would work because the data contains nine columns that categorize the application. This is enough to create a random forest. Multiple algorithms are being used to make predictions, resulting in one final prediction based on the combination of previous predictions.
+The model could not meet our goal of 75% accuracy. After completing the optimization, the model still didn't meet the goal. 
+
+Since this didn't work, I suggest using a supervised machine learning model, such as decision trees and random forest classifiers. This is because we know the outcome of the data; I dropped the 'IS_SUCCESSFUL' column in the beginning of preprocessing. 
+
+Decision trees would work because the data contains nine columns that categorize the application. This is enough to create a random forest. Multiple algorithms are being used to make predictions, resulting in one final prediction based on the combination of previous predictions.
