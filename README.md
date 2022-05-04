@@ -2,7 +2,7 @@
 
 ## Overview of the analysis
 
-This analysis uses machine learning and neural networks with Tensorflow to predict whether applicants will be successful if funded by Alphabet Soup. The data provided from Alphabet Soup contains 34,000 plus organizations that have received funding. 
+This analysis uses machine learning and neural networks with Tensorflow to predict whether applicants will be successful if funded by Alphabet Soup. The data provided from Alphabet Soup contains 34,000 plus organizations that have received funding. The goal is to reach 75% or higher accuracy.
 
 - With this data, I will:
   - preprocess the data for the neural network
@@ -46,12 +46,11 @@ The following changes to model were:
     
   - After completing preprocessing, I was able to make changes to compiling the model. These are the changes and results of each attempt:
   A1. The second hidden layer was increased from 30 units to 40 units. The output activation was changed to 'RELU'.
-    - The result was accuracy.
+    - The result was 68% accuracy.
   A2. A third hidden layer was added with 20 units
-    - The result was accuracy.
+    - The result was 68% accuracy.
   A3. The hidden layer activation was changed to 'Sigmoid'. 
-    - The result was accuracy.
+    - The result was 68% accuracy.
 
 ## Summary: 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-The model could not meet the target performance, even with three more attempts. 
+The model could not meet our goal of 75% accuracy. After completing the optimization, the model still didn't meet the goal. Since this didn't work, I suggest using a supervised machine learning model, such as decision trees and random forest classifiers. This is because we know the outcome of the data; I dropped the 'IS_SUCCESSFUL' column in the beginning of preprocessing. Decision trees would work because the data contains nine columns that categorize the application. This is enough to create a random forest. Multiple algorithms are being used to make predictions, resulting in one final prediction based on the combination of previous predictions.
