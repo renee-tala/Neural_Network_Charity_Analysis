@@ -2,7 +2,12 @@
 
 ## Overview of the analysis
 
-This analysis 
+This analysis uses machine learning and neural networks with Tensorflow to predict whether applicants will be successful if funded by Alphabet Soup. The data provided from Alphabet Soup contains 34,000 plus organizations that have received funding. 
+
+- With this data, we will:
+  - preprocess the data for the neural network
+  - complie, train, and evaluate the neural network model
+  - conduct additional trainings to optimize the model
 
 - Resources:
   - charity_data.csv
