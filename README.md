@@ -6,7 +6,7 @@ This analysis uses machine learning and neural networks with Tensorflow to predi
 
 - With this data, I will:
   - preprocess the data for the neural network
-  - complie, train, and evaluate the neural network model
+  - compile, train, and evaluate the neural network model
   - conduct additional trainings to optimize the model
 
 - Resources:
